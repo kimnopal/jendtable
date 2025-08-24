@@ -1,0 +1,75 @@
+{
+    "name": "kimnopal/jendtable",
+    "description": "A modern, responsive Laravel Livewire table component with search, pagination, and sorting capabilities built with DaisyUI",
+    "keywords": [
+        "laravel",
+        "livewire",
+        "table",
+        "datatable",
+        "pagination",
+        "search",
+        "sorting",
+        "daisyui",
+        "tailwindcss",
+        "component"
+    ],
+    "homepage": "https://github.com/kimnopal/jendtable",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kimnopal",
+            "email": "naufalhakim366@gmail.com",
+            "homepage": "https://github.com/kimnopal",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/kimnopal/jendtable/issues",
+        "source": "https://github.com/kimnopal/jendtable"
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/database": "^10.0|^11.0",
+        "illuminate/pagination": "^10.0|^11.0",
+        "livewire/livewire": "^3.6"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0",
+        "mockery/mockery": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "KimNopal\\JendTable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KimNopal\\JendTable\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KimNopal\\JendTable\\JendTableServiceProvider"
+            ],
+            "aliases": {
+                "JendTable": "KimNopal\\JendTable\\Facades\\JendTable"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
