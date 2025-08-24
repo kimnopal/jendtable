@@ -4,6 +4,10 @@
 <a href="https://packagist.org/packages/kimnopal/jendtable"><img src="https://img.shields.io/packagist/v/kimnopal/jendtable" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/kimnopal/jendtable"><img src="https://img.shields.io/packagist/l/kimnopal/jendtable" alt="License"></a>
 
+---
+
+![JendTable Demo](https://raw.githubusercontent.com/kimnopal/jendtable/assets/preview.png)
+
 A modern, responsive Laravel Livewire table component with search, pagination, and sorting capabilities built with DaisyUI.
 
 ## Features
