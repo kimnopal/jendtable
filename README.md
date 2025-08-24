@@ -1,16 +1,20 @@
 # JendTable
 
+<a href="https://packagist.org/packages/kimnopal/jendtable"><img src="https://img.shields.io/packagist/dt/kimnopal/jendtable" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/kimnopal/jendtable"><img src="https://img.shields.io/packagist/v/kimnopal/jendtable" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/kimnopal/jendtable"><img src="https://img.shields.io/packagist/l/kimnopal/jendtable" alt="License"></a>
+
 A modern, responsive Laravel Livewire table component with search, pagination, and sorting capabilities built with DaisyUI.
 
 ## Features
 
--   🔍 **Real-time Search** - Search across multiple columns with debounced input
--   📄 **Pagination** - Customizable pagination with multiple per-page options
--   🎨 **DaisyUI Styling** - Beautiful, responsive design with DaisyUI components
--   ⚡ **Livewire Powered** - Real-time updates without page refresh
--   🔧 **Highly Configurable** - Flexible column configuration and validation
--   📱 **Mobile Responsive** - Works perfectly on all device sizes
--   🎯 **Type Safe** - Built with proper validation and error handling
+- 🔍 **Real-time Search** - Search across multiple columns with debounced input
+- 📄 **Pagination** - Customizable pagination with multiple per-page options
+- 🎨 **DaisyUI Styling** - Beautiful, responsive design with DaisyUI components
+- ⚡ **Livewire Powered** - Real-time updates without page refresh
+- 🔧 **Highly Configurable** - Flexible column configuration and validation
+- 📱 **Mobile Responsive** - Works perfectly on all device sizes
+- 🎯 **Type Safe** - Built with proper validation and error handling
 
 ## Installation
 
@@ -22,10 +26,10 @@ composer require kimnopal/jendtable
 
 ## Requirements
 
--   PHP 8.1 or higher
--   Laravel 10.0 or 11.0
--   Livewire 3.6 or higher
--   TailwindCSS with DaisyUI
+- PHP 8.1 or higher
+- Laravel 10.0 or 11.0
+- Livewire 3.6 or higher
+- TailwindCSS with DaisyUI
 
 ## Usage
 
@@ -93,7 +97,7 @@ Add DaisyUI to your `tailwind.config.js`:
 
 ```javascript
 module.exports = {
-    plugins: [require("daisyui")],
+  plugins: [require("daisyui")],
 };
 ```
 
@@ -115,9 +119,9 @@ The table view can be customized by modifying the published views in `resources/
 
 The component includes built-in validation for:
 
--   Model class existence and inheritance
--   Column configuration (required fields, data types)
--   Pagination settings (valid ranges, types)
+- Model class existence and inheritance
+- Column configuration (required fields, data types)
+- Pagination settings (valid ranges, types)
 
 ## Error Handling
 
@@ -174,8 +178,8 @@ If you discover any security vulnerabilities or bugs, please create an issue on 
 
 ## Credits
 
--   [kimnopal](https://github.com/kimnopal)
--   [All Contributors](../../contributors)
+- [kimnopal](https://github.com/kimnopal)
+- [All Contributors](../../contributors)
 
 ## Changelog
 
