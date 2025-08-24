@@ -6,7 +6,7 @@
 
 ---
 
-![JendTable Demo](https://raw.githubusercontent.com/kimnopal/jendtable/assets/preview.png)
+![JendTable Demo](https://raw.githubusercontent.com/kimnopal/jendtable/refs/heads/main/assets/preview.png)
 
 A modern, responsive Laravel Livewire table component with search, pagination, and sorting capabilities built with DaisyUI.
 
