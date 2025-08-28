@@ -102,7 +102,11 @@
                             </td>
                         </tr>
                     @empty
-
+                        <tr>
+                            <td class="text-center text-base-content/70 italic" colspan="{{ count($columns) + 2 }}">
+                                No records found.
+                            </td>
+                        </tr>
                     @endforelse
                 </tbody>
             </table>
